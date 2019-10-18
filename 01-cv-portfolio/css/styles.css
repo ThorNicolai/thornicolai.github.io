@@ -195,6 +195,22 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 	
 
 /* ---------------------------------
+6b. Languages
+--------------------------------- */
+
+/* LINE PROGRESSBAR */
+	
+.line-progress{ position: relative; padding-bottom: 25px; }
+
+.line-progress .progressbar-text{ position: absolute; bottom: 0; right: 0; font-size: 1.1em; 
+	font-weight: 500; color: #777!important; }
+
+.line-progress .progress-title{ position: absolute; bottom: 0; left: 0; color: #777; }
+
+
+
+
+/* ---------------------------------
 7. EXPERIENCE SECTION
 --------------------------------- */
 
@@ -258,5 +274,32 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+.copyright{ text-align: center; padding: 30px 0; background: #28023D;font-size: 8px; }
+
+
+/* ---------------------------------
+A. BTN SECTION
+--------------------------------- */
+
+.btn-section{ padding-top: 100px; }
+
+.btn{ margin: 0 10px 10px; padding: 12px 30px; border-radius: 5px; }
+
+.btn-bg-yellow{ border: 1px solid #FFAD01; background: #FFAD01; color: #fff; }
+
+.btn-bg-purple{ border: 1px solid #28023D; background: #28023D; color: #fff; }
+
+.btn-border-purple{ border: 1px solid #FFA600; color: #222; }
+
+.btn-color-yellow{ border: 1px solid #28023D; background: #28023D; color: #FFAD01; }
+
+
+.btn-bg-yellow:hover{ background: none; color: #111; }
+
+.btn-bg-purple:hover{ background: none; color: #111; }
+
+.btn-border-purple:hover{ background: #FFA600; color: #fff; }
+
+.btn-color-yellow:hover{ background: none; color: #111; }
+
 
